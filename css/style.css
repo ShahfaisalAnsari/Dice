@@ -9,9 +9,9 @@
     width: 400px;
     height: 70vh;
     text-align: center;
-    border: 2px dotted rgb(136, 207, 216);
+    /* border: 2px dotted rgb(136, 207, 216); */
     border-radius: 50px 0;
-    margin-top: 130px;
+    margin-top: 80px;
     padding: 30px;
 
 }
