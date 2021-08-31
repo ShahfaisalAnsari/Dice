@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 22px sans-serif;
+}
+.container{
+    margin: auto;
+    width: 400px;
+    height: 60vh;
+    text-align: center;
+    /* border: 2px dotted rgb(207, 206, 206); */
+    margin-top: 130px;
+    padding: 30px;
+
+}
+.btn{
+    padding: 10px 30px;
+    box-shadow: rgba(128, 128, 128, 0.753) 0 0 5px;
+    text-align: center;
+    border-radius: 12px;
+}
+.btn::selection{
+    background-color: transparent;
+}
+.disc{
+    display: flex;
+   margin-top: 50px;
+   justify-content: center;
+   background-color: violet;
+    
+}
+.one, .two, .three, .four, .five, .six{
+    visibility: hidden;
+    position: absolute;
+}
+svg{
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgb(192, 190, 190);
+    border: none;
+}
+@keyframes own {
+    0%{
+        width: 10px;
+    }
+    100%{
+        width: 250px;
+    }
+}
+
+
+
+/* -------------------------- */
+
+
