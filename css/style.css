@@ -24,7 +24,7 @@
 .btn::selection{
     background-color: transparent;
 }
-.disc{
+.dice{
     display: flex;
    margin-top: 50px;
    justify-content: center;
@@ -34,6 +34,10 @@
 .one, .two, .three, .four, .five, .six{
     visibility: hidden;
     position: absolute;
+}
+
+.one{
+    visibility: visible;
 }
 svg{
     border-radius: 50px;
